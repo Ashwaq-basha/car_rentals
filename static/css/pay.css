@@ -1,0 +1,75 @@
+
+.contain{
+    margin-top: 4rem;
+    width: 750px;
+    height: 530px;
+    border: 1px solid;
+    background-color: #2B2E4A;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content:space-around;
+    display: none;
+}
+
+.contain h1{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+h3{
+    color: aliceblue;
+
+}
+
+.first-rows{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+    margin-bottom: 1rem;
+}
+
+.input-field button{
+    margin-top: 1rem;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    /* background-color: blueviolet; */
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+
+.cards img{
+    width: 100px;
+}
